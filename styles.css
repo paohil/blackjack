@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2E7D32;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    background-color: #006400;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+#player-cards, #player-sum, #house-cards, #house-sum, #message {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #FFCC00;
+    color: #000;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FFB300;
+}
